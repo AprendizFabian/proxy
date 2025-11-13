@@ -5,7 +5,7 @@ export default async function handler(req, res) {
 
   if (req.method === "OPTIONS") return res.status(200).end();
 
-  const url = "http://redash.rappi.com/api/queries/124580/results.json?api_key=PyarSewWjHW6MKrLaJD3tvnMXrdG4YDaZx1QJ8DQ";
+  const url = "http://redash.rappi.com/api/queries/124544/results.json?api_key=6L1W2VhnmIY2koGo6KOmfZGHjkAv68LwczbYIAV9";
 
   try {
     const response = await fetch(url);
